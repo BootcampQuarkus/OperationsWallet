@@ -1,16 +1,14 @@
-package com.quarkus.bootcamp.nttdata.domain.entity;
+package com.quarkus.bootcamp.nttdata.infraestructure.entity.customerWallet;
 
-import com.quarkus.bootcamp.nttdata.infraestructure.entity.address.AddressD;
-import com.quarkus.bootcamp.nttdata.infraestructure.entity.document.DocumentD;
-import lombok.AllArgsConstructor;
+import com.quarkus.bootcamp.nttdata.infraestructure.entity.customerWallet.address.AddressD;
+import com.quarkus.bootcamp.nttdata.infraestructure.entity.customerWallet.document.DocumentD;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.bson.types.ObjectId;
 
 @Data
-@AllArgsConstructor
 @NoArgsConstructor
-public class CustomerWallet {
+public class CustomerD {
   protected ObjectId id;
   protected String user;
   protected String cellphone;

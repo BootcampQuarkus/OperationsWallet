@@ -6,6 +6,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class Amount {
-    protected double amount;
-    protected String operation;
+  protected double amount;
+  protected String operation;
 }

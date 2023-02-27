@@ -11,12 +11,12 @@ import java.time.LocalDate;
 @NoArgsConstructor
 @MongoEntity(collection = "operationwallet")
 public class OperationWalletD {
-    
-    protected ObjectId id;
-    protected double amount;
-    protected String originPhone;
-    protected String destinationPhone;
-    protected String description;
-    protected LocalDate date = LocalDate.now();
-    protected String deleted = "0";
+
+  protected ObjectId id;
+  protected double amount;
+  protected String originPhone;
+  protected String destinationPhone;
+  protected String description;
+  protected LocalDate date = LocalDate.now();
+  protected String deleted = "0";
 }

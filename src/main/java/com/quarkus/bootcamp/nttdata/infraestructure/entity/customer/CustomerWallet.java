@@ -10,15 +10,15 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 public class CustomerWallet {
-    protected String id;
-    protected String user;
-    protected String cellphone;
-    protected String password;
-    protected double amount;
-    protected String fullName;
-    protected Long cardId = null;
-    protected Long addressId;
-    protected Long documentId;
-    protected DocumentD document;
-    protected AddressD address;
+  protected String id;
+  protected String user;
+  protected String cellphone;
+  protected String password;
+  protected double amount;
+  protected String fullName;
+  protected Long cardId = null;
+  protected Long addressId;
+  protected Long documentId;
+  protected DocumentD document;
+  protected AddressD address;
 }
